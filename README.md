@@ -16,6 +16,6 @@ Cleanup script for OSX
 
 	`sudo mv cleanup /usr/local/bin/cleanup`
 
-## TODO:
+## Todo:
 
 * Calculate the difference of free space on the disk before and after cleanup
