@@ -36,4 +36,4 @@ brew cleanup --force -s &>/dev/null
 rm -rfv /Library/Caches/Homebrew/* &>/dev/null
 brew tap --repair &>/dev/null
 
-clear && echo 'Everything is cleaned up :3'
+echo 'Everything is cleaned up'
