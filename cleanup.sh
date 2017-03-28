@@ -4,6 +4,9 @@
 echo 'Please enter your password to grant sudo-rights:'
 sudo -v
 
+echo 'Clearing ram and disk cache contents'
+sudo purge
+
 echo 'Empty the Trash on all mounted volumes and the main HDD...'
 sudo rm -rfv /Volumes/*/.Trashes &>/dev/null
 sudo rm -rfv ~/.Trash &>/dev/null
