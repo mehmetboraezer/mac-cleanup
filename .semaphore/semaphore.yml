@@ -11,10 +11,9 @@ blocks:
         commands:
           - checkout
       jobs:
-        - name: Check Openssl
+        - name: Check MacOS Version
           commands:
-            - echo "test macos server"
-            - openssl
+            - system_profiler SPSoftwareDataType
         - name: Check Brew status
           commands:
             - brew list
