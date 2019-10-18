@@ -14,4 +14,4 @@ blocks:
         - name: test macos
           commands:
             - echo "test macos server"
-            - openssl --help
+            - openssl help
