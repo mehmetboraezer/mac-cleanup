@@ -11,7 +11,10 @@ blocks:
         commands:
           - checkout
       jobs:
-        - name: test macos
+        - name: Check Openssl
           commands:
             - echo "test macos server"
-            - openssl help
+            - openssl
+        - name: Check Brew status
+          commands:
+            - brew list
